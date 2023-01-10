@@ -1,0 +1,33 @@
+.logincard{
+    background-color: white;
+    padding: 60px;
+    padding-top: 30px;
+    margin-top: 180px;
+    margin-left: 30%;
+    width: 400px;
+    justify-content: space-around;
+    opacity: 85%;
+    
+    
+}
+.adminlogin{
+    background-image: url('../../public/images/bg2.jpg');
+    background-size: cover;
+    height: 100vh;
+    padding-top: 50px;
+}
+
+.mail{
+    padding: 30px;
+}
+.pass{
+    padding-right: 20px;
+    justify-content: space-around;
+}
+.form button{
+    margin-top: 20px;
+}
+
+
+
+

@@ -1,0 +1,54 @@
+.landingpage{
+    margin: 0px;
+    background-image: url("../../public/images/bg1.jpg");
+    height: 90vh;
+    /* margin-top: 15%; */
+    padding-top: 9%;
+    background-size: cover;
+    
+}
+
+.main{
+    width: 500px;
+    height:330px;
+    text-align: center;
+    margin: auto;
+    /* padding-top: 25%; */
+    padding: 4%;
+    background-color: white;
+    opacity: 80%;
+    
+    box-shadow: 10px 10px 10px rgb(84, 62, 62);
+}
+
+.main h1{
+    margin: 0;
+    padding: 0;
+    color: rgb(92, 14, 14);
+    font-size: 35px;
+}
+
+.selection {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.selection img{
+    padding: 36px;
+    padding-right: 50px;
+    padding-top: 8px;
+    margin: 42px;
+}
+
+.selection a{
+    text-decoration: none ;
+    border: 1px solid rgb(63, 62, 62);
+    color: white;
+    font-weight: 500;
+    
+    padding: 10px;
+    margin-right: 10px;
+    background-color: rgb(221, 131, 22);
+}
+

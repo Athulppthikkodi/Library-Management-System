@@ -1,0 +1,40 @@
+.username{
+    
+    background-color: rgb(162, 216, 232);
+    height: 60vh;
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 50px;
+    box-shadow: 10px 10px 10px rgb(235, 138, 28);
+    border-radius: 10px;
+    
+}
+.username h1{
+    padding-bottom: 25px;
+}
+.username button{
+    width: 68px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+.username button:hover{
+    background-color: rgb(243, 170, 68);
+}
+
+.username input{
+
+    height: 30px;
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: none;
+    
+}
+#two{
+    margin-left: 10px;
+}
+#four{
+    margin-right: 70px;
+}

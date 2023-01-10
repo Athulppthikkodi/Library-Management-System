@@ -1,0 +1,16 @@
+.user1{
+    display: inline-flex;
+    flex-direction: column; 
+}
+.userCard{
+    width: 350px;
+    height: 35vh;
+    border:2px solid white;
+    background-color: rgb(182, 198, 219);
+    margin: 10px;
+    box-shadow: 10px 10px 10px rgb(211, 154, 47);
+}
+.userCard button:hover{
+    background-color: rgb(224, 170, 44);
+
+}
