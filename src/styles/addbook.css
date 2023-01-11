@@ -1,3 +1,30 @@
 .addbook{
-    background-color: aqua;
+    background-color: rgb(162, 216, 232);
+    width: 600px;
+    margin: auto;
+    height: 95vh;
+    box-shadow: 10px 10px 10px rgb(231, 143, 35);
+}
+.addbook input{
+    padding: 7px;
+    width: 300px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+}
+.addbook textarea{
+    width: 350px;
+    border: none;
+    border-radius: 5px;
+}
+#url{
+    width: 345px;
+    margin-bottom: 0px;
+}
+.form-but{
+    padding: 5px;
+    margin-top: 0px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(232, 143, 35);
 }

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import '../styles/addbook.css'
 const AddBook = () => {
 let [title,setTitle]= useState("")
 let [authors,setAuthors]= useState("")
@@ -47,7 +48,7 @@ let handleSubmit=(e)=>{
                         <textarea value={longDescription} onChange={(e)=>setLongDescription(e.target.value)} placeholder="Long Description" name="" id="" cols="30" rows="10"></textarea>
                     </div>
                     <div className="thumbnailUrl">
-                        <input value={thumbnailUrl} onChange={(e)=>setThumbnailUrl(e.target.value)} className="" type="text" placeholder="Thumbnail Url"/>
+                        <input id='url' value={thumbnailUrl} onChange={(e)=>setThumbnailUrl(e.target.value)} className="" type="text" placeholder="Thumbnail Url"/>
                     </div>
                     <button className="form-but">Add Book</button>
                     

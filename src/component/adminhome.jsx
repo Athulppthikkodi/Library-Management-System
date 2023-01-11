@@ -6,6 +6,7 @@ import AdminNavbar from "./adminNavbar";
 import BookList from "./booklist";
 import ReadBook from "./readbook";
 import UserList from "./userlist";
+import UserPortal from "./userportal";
 const AdminPortal = () => {
     return ( 
         <div className="adminPortal">
@@ -17,6 +18,7 @@ const AdminPortal = () => {
                 <Route path="/book-list/:id" element={<ReadBook/>}/>
                 <Route path="/add-user/" element={<AddUser/>}/>
                 <Route path="/add-book" element={<AddBook/>}/>
+                
             </Routes>
 
         </div>
